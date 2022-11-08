@@ -19,4 +19,11 @@
   <li class="nav-item">
     <a class="nav-link" href="./card.php">Card</a>
   </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="./page_counter.php">page_counter</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./upload_file.php">upload_file</a>
+  </li>
 </ul>

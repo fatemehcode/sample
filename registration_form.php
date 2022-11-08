@@ -9,14 +9,14 @@
   $username='';
   $email='';
   $password='';
-  $password2='';
+  $repeatpassword='';
   $yoururl='';
 
   if($_SERVER['REQUEST_METHOD']==='POST'){
     $username=post_data("username");
     $email=post_data("email");
     $password=post_data("password");
-    $password2=post_data("password2");
+    $repeatpassword=post_data("repeatpassword");
     $yoururl=post_data("yoururl");
     //-----------------validation---------------- 
     if(!$username){
@@ -29,20 +29,20 @@
         $errors['email']='This field must be a valid email address';}
     if(!$password){
       $errors['password']=REQUIRED_FIELD_ERROR;}
-    /* if(!$password2){
-      $errors['password2']=REQUIRED_FIELD_ERROR;}
-   if($password && $password2 &&strcmp($password,$password2)!=0){
-      $errors['password2']='does not match';}
-      if(!$yoururl&&!filter_var($yoururl,FILTER_VALIDATE_URL)){
+    if(!$repeatpassword){
+      $errors['repeatpassword']=REQUIRED_FIELD_ERROR;}
+    if($password && $repeatpassword &&strcmp($password,$repeatpassword)!=0){
+      $errors['repeatpassword']='does not match';}
+    if(!$yoururl&&!filter_var($yoururl,FILTER_VALIDATE_URL)){
       $errors['yoururl']='This field must be a valid URL address';}
-    */
+    
     if(empty($errors)){
       echo '<pre>';
       var_dump($_POST);
       echo '</pre>';}
   }
   
-  function validation($username,$email,$password,$password2,$yoururl){
+  function validation($username,$email,$password,$repeatpassword,$yoururl){
     return true;  }
  
 ?>
@@ -85,12 +85,12 @@
         </div>
       </div> 
       <div class="form-group"> 
-        <input class="form-control <?php echo isset($errors['password2'])?'is-invalid':'';?>" 
+        <input class="form-control <?php echo isset($errors['repeatpassword'])?'is-invalid':'';?>" 
          type="password" 
-        name="password" value="<?php echo $password2;?>" 
-        placeholder="Password2"/>
+        name="repeatpassword" value="<?php echo $repeatpassword;?>" 
+        placeholder="repeatpassword"/>
         <div class="invalid-feedback">
-          <?php echo $errors['password2']??'';?>
+          <?php echo $errors['repeatpassword']??'';?>
         </div>
       </div> 
       <div class="form-group">   
