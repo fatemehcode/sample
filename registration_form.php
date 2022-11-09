@@ -50,7 +50,7 @@
 
 
 
-<?php include './header.php'; ?>
+<?php include './partial/header.php'; ?>
 
 
 <br/><br/>
@@ -117,4 +117,4 @@
   <button class="btn btn-primary" >SignIn</button>
 </form>
 
-<?php include './footer.php'; ?>
+<?php include './partial/footer.php'; ?>

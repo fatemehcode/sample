@@ -15,7 +15,7 @@ if($file['size']>5*1024*1024){
     else{move_uploaded_file($_FILES['file']['tmp_name'], $_FILES['file']['name']);}
 
 }
-include './header.php';?>
+include './partial/header.php';?>
 <p><?php echo $errorMsg;?></p>
 <form method="post" action="" enctype="multipart/form-data">
     <input type="file" name="file" value=""><br/>

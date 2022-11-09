@@ -5,7 +5,7 @@
         echo $kw.'<br>';//Do whatever necessary with the keyword
     }
 ?>
-        <?php include './header.php'; ?>
+        <?php include './partial/header.php'; ?>
         <div id="content">
             <form method="GET">
                 <input  type="text"
@@ -16,4 +16,4 @@
                 <button type="submit">Search</button>
             </form>
         </div>
-        <?php include './footer.php'; ?>
+        <?php include './partial/footer.php'; ?>

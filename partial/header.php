@@ -18,6 +18,7 @@
         <?php 
             echo'_________________________________';
             include './navbar.php';
+            $year = date('Y');
         ?>
         
     </div>
