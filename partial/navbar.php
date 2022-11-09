@@ -23,7 +23,16 @@
   <li class="nav-item">
     <a class="nav-link" href="./page_counter.php">page_counter</a>
   </li>
+  
   <li class="nav-item">
     <a class="nav-link" href="./upload_file.php">upload_file</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="./createreportfilefolder.php">Reportasfile</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="./todo_app_fs/index.php">ToDo(fs)</a>
   </li>
 </ul>

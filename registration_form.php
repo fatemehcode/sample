@@ -41,10 +41,7 @@
       var_dump($_POST);
       echo '</pre>';}
   }
-  
-  function validation($username,$email,$password,$repeatpassword,$yoururl){
-    return true;  }
- 
+   
 ?>
 
 
