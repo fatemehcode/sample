@@ -1,4 +1,4 @@
-<?php include_once './partial/header.php';?>
+<?php include_once './header.php';?>
 <style>
     .card {
         width: 4cm;

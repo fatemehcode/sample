@@ -11,7 +11,7 @@
 
 ?>
 
-<?php include './partial/header.php'; ?>
+<?php include './header.php'; ?>
 
 
 <br/><br/>
@@ -28,4 +28,4 @@
   <button class="btn btn-primary" >Register</button>
 </form>
 
-<?php include './partial/footer.php'; ?>
+<?php include './footer.php'; ?>

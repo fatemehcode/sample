@@ -1,0 +1,19 @@
+/*
+A class is a template for objects, and an object is an instance of class.
+A constructor allows you to initialize an object's properties upon creation of the object.
+A destructor is called when the object is destructed or the script is stopped or exited.
+Access Modifiers
+    _public - the property or method can be accessed from everywhere. This is default
+    _protected - the property or method can be accessed within the class and by classes derived from that class
+    _private - the property or method can ONLY be accessed within the class
+Inheritance in OOP:When a class derives from another class.
+The child class will inherit all the public and protected properties and methods from the parent class.
+Constants cannot be changed once it is declared.
+Class constants can be useful if you need to define some constant data within a class.
+Abstract classes and methods are when the parent class has a named method, but need its child class(es) to fill out the tasks.
+An abstract class is a class that contains at least one abstract method. 
+An abstract method is a method that is declared, but not implemented in the code.
+
+ 
+ 
+ */

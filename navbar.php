@@ -35,4 +35,10 @@
   <li class="nav-item">
     <a class="nav-link" href="./todo_app_fs/index.php">ToDo(fs)</a>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./oop/index.php">oop</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./note_app_with_sql/index.php">noteApp</a>
+  </li>
 </ul>

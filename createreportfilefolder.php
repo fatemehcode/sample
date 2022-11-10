@@ -1,5 +1,5 @@
 <?php
-include_once './partial/header.php';
+include_once './header.php';
     !file_exists('reports_'.(date('d M Y')))?mkdir(('reports_'.(date('d M Y'))),0755,true):'';
     $myfile = fopen('reports_'.(date('d M Y')).'\new.txt','a+');
     $txt = $year."\n";

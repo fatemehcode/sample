@@ -17,7 +17,7 @@
         
         <?php 
             echo'_________________________________';
-            include_once './partial/navbar.php';
+            include_once './navbar.php';
             $year = date('Y');
         ?>
         
